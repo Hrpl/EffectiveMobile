@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.api\\extensions\\dbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|solutionrelative:effectivemobile.api\\extensions\\dbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|solutionrelative:effectivemobile.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.infrastructure\\effectivemobile.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|solutionrelative:effectivemobile.infrastructure\\effectivemobile.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1390,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Extensions\\DbExtensions.cs",
+              "RelativeDocumentMoniker": "EffectiveMobile.API\\Extensions\\DbExtensions.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Extensions\\DbExtensions.cs",
+              "RelativeToolTip": "EffectiveMobile.API\\Extensions\\DbExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:06:13.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:02:45.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EffectiveMobile.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
+              "RelativeToolTip": "EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T22:02:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

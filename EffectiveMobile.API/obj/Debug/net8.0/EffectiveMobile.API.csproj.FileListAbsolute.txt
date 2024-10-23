@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.AssemblyInfo.cs
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.MvcApplicationPartsAssemblyInfo.cache

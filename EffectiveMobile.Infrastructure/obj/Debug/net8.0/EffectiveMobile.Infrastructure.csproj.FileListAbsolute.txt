@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\bin\Debug\net8.0\EffectiveMobile.Infrastructure.deps.json
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\bin\Debug\net8.0\EffectiveMobile.Infrastructure.runtimeconfig.json
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\bin\Debug\net8.0\EffectiveMobile.Infrastructure.dll
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\bin\Debug\net8.0\EffectiveMobile.Infrastructure.pdb
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\bin\Debug\net8.0\EffectiveMobile.Domain.dll
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\bin\Debug\net8.0\EffectiveMobile.Domain.pdb
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.AssemblyInfo.cs
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\Effectiv.537F4539.Up2Date
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.dll
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\refint\EffectiveMobile.Infrastructure.dll
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.pdb
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\EffectiveMobile.Infrastructure.genruntimeconfig.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Infrastructure\obj\Debug\net8.0\ref\EffectiveMobile.Infrastructure.dll
