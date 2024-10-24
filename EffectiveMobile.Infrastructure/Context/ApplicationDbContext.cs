@@ -11,7 +11,6 @@ namespace EffectiveMobile.Infrastructure.Context;
 public class ApplicationDbContext : DbContext
 {
     public DbSet<Order> Orders { get; set; }
-    public DbSet<Result> Results { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> dbContextOptions) : base(dbContextOptions)
     {

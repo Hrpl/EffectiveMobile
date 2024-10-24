@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.api\\extensions\\dbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|solutionrelative:effectivemobile.api\\extensions\\dbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED7516FF-8621-4BD7-9474-EE3F29794793}|EffectiveMobile.Application\\EffectiveMobile.Application.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.application\\services\\implementaions\\dbconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED7516FF-8621-4BD7-9474-EE3F29794793}|EffectiveMobile.Application\\EffectiveMobile.Application.csproj|solutionrelative:effectivemobile.application\\services\\implementaions\\dbconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|solutionrelative:effectivemobile.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|solutionrelative:effectivemobile.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7516FF-8621-4BD7-9474-EE3F29794793}|EffectiveMobile.Application\\EffectiveMobile.Application.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.application\\effectivemobile.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED7516FF-8621-4BD7-9474-EE3F29794793}|EffectiveMobile.Application\\EffectiveMobile.Application.csproj|solutionrelative:effectivemobile.application\\effectivemobile.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA7449C9-86DF-4E1A-B4A7-1F17FDA9B03E}|EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.infrastructure\\effectivemobile.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,38 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1390,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DbExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Extensions\\DbExtensions.cs",
-              "RelativeDocumentMoniker": "EffectiveMobile.API\\Extensions\\DbExtensions.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Extensions\\DbExtensions.cs",
-              "RelativeToolTip": "EffectiveMobile.API\\Extensions\\DbExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Program.cs",
+              "RelativeDocumentMoniker": "EffectiveMobile.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Program.cs",
+              "RelativeToolTip": "EffectiveMobile.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T22:06:13.622Z",
+              "WhenOpened": "2024-10-23T22:22:10.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "EffectiveMobile.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DbConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Application\\Services\\Implementaions\\DbConnectionManager.cs",
+              "RelativeDocumentMoniker": "EffectiveMobile.Application\\Services\\Implementaions\\DbConnectionManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Application\\Services\\Implementaions\\DbConnectionManager.cs",
+              "RelativeToolTip": "EffectiveMobile.Application\\Services\\Implementaions\\DbConnectionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T22:02:45.693Z",
+              "WhenOpened": "2024-10-23T22:15:10.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EffectiveMobile.Infrastructure",
+              "Title": "EffectiveMobile.Application",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Application\\EffectiveMobile.Application.csproj",
+              "RelativeDocumentMoniker": "EffectiveMobile.Application\\EffectiveMobile.Application.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Application\\EffectiveMobile.Application.csproj",
+              "RelativeToolTip": "EffectiveMobile.Application\\EffectiveMobile.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T22:14:17.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EffectiveMobile.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
               "RelativeDocumentMoniker": "EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj",
@@ -62,10 +83,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-23T22:02:09.503Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

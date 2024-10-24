@@ -57,14 +57,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "FastEndpoints": {
-              "target": "Package",
-              "version": "[5.30.0, )"
-            },
-            "FastEndpoints.Swagger": {
-              "target": "Package",
-              "version": "[5.30.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -152,6 +144,10 @@
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "SqlKata.Execution": {
               "target": "Package",
