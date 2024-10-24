@@ -1,4 +1,5 @@
 using EffectiveMobile.API.Extensions;
+using EffectiveMobile.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseCors(x => x
     .AllowAnyMethod()

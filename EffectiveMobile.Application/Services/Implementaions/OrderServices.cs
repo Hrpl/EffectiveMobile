@@ -16,9 +16,9 @@ public class OrderServices : IOrderServices
     }
     public async Task GetOrders(string _cityDistrict, string _firstDeliveryDateTime)
     {
-        var query = _asyncRepository.GetQueryBuilder("Order")
+        var query = _asyncRepository.GetQueryBuilder("Orders")
             .When(_cityDistrict.Length > 0, q => q.WhereLike("CityDistrict", _cityDistrict))
-            .When(_firstDeliveryDateTime is not null, q => q.WhereRaw("DATEDIFF(HOUR, DeliveryTime, @FirstDeliveryTime) <= 0.5"))
+            .When(_firstDeliveryDateTime is not null, q => q.WhereRaw($"DATEDIFF(hour, {Convert.ToDateTime(_firstDeliveryDateTime)}, {Convert.ToDateTime(_firstDeliveryDateTime).AddMinutes(30)}) <= 0.5"))
             .Select("OrderNumber", "CityDistrict", "OrderDate", "FloatWeight");
 
         _logger.LogInformation("SQL: " + query.ToString());
