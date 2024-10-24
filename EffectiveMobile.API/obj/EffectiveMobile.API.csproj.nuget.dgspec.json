@@ -119,7 +119,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Domain\\EffectiveMobile.Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Domain\\EffectiveMobile.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

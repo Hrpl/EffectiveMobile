@@ -11,3 +11,6 @@ C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\obj\Debug\net
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\obj\Debug\net8.0\EffectiveMobile.Application.pdb
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\obj\Debug\net8.0\ref\EffectiveMobile.Application.dll
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\obj\Debug\net8.0\EffectiveMobile.Application.sourcelink.json
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\bin\Debug\net8.0\EffectiveMobile.Domain.dll
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\bin\Debug\net8.0\EffectiveMobile.Domain.pdb
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Application\obj\Debug\net8.0\Effectiv.E268523D.Up2Date

@@ -16,11 +16,11 @@ public class AsyncRepository : IAsyncRepository
         _queryFactory = dbConnection.QueryFactory;
         _logger = logger;
     }
-    public Query GetQueryBuilder()
+    public Query GetQueryBuilder(string tableName)
     {
-        return new Query();
+        return _queryFactory.Query(tableName);
     }
-    public async Task<IEnumerable<T>> GetListAsync<T>(Query query, CancellationToken ct)
+    public async Task<IEnumerable<T>> GetListAsync<T>(Query query, CancellationToken ct = default)
     {
         return await query.GetAsync<T>(cancellationToken: ct);
     }

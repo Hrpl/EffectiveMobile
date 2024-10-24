@@ -13,4 +13,8 @@
     <PackageReference Include="SqlKata.Execution" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EffectiveMobile.Domain\EffectiveMobile.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

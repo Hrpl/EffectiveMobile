@@ -16,5 +16,6 @@ public static class ServiceExtensions
     {
         services.AddScoped<IDbConnectionManager, DbConnectionManager>();
         services.AddScoped<IAsyncRepository, AsyncRepository>();
+        services.AddScoped<IOrderServices, OrderServices>();
     }
 }

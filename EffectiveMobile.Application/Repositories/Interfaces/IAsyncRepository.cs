@@ -10,6 +10,6 @@ namespace EffectiveMobile.Application.Repositories.Interfaces;
 
 public interface IAsyncRepository
 {
-    public Query GetQueryBuilder();
-    public Task<IEnumerable<T>> GetListAsync<T>(Query query, CancellationToken ct);
+    public Query GetQueryBuilder(string tableName);
+    public Task<IEnumerable<T>> GetListAsync<T>(Query query, CancellationToken ct = default);
 }
