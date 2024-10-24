@@ -1,4 +1,5 @@
 ﻿using EffectiveMobile.Domain.Common.Response;
+using EffectiveMobile.Domain.Exceptions;
 
 namespace EffectiveMobile.API.Middlewares;
 
@@ -20,10 +21,22 @@ public class ExceptionMiddleware
         {
             await _next(context);
         }
+        catch(NullParametrException ex)
+        {
+            statusCode = 400;
+            exceptionResponseBody = new BaseResponse<object?>(null, ex.Message); ;
+            exception = ex;
+        }
+        catch (FormatException ex)
+        {
+            statusCode = 400;
+            exceptionResponseBody = new BaseResponse<object?>(null, ex.Message); ;
+            exception = ex;
+        }
         catch (Exception ex)
         {
             statusCode = 400;
-            exceptionResponseBody = new BaseResponse<object?>(null, ex.ToString()); ;
+            exceptionResponseBody = new BaseResponse<object?>(null, ex.Message); ;
             exception = ex;
         }
 

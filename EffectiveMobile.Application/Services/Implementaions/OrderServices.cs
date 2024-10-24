@@ -2,6 +2,7 @@
 using EffectiveMobile.Application.Services.Interfaces;
 using EffectiveMobile.Domain.Models;
 using Microsoft.Extensions.Logging;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EffectiveMobile.Application.Services.Implementaions;
 
@@ -16,19 +17,29 @@ public class OrderServices : IOrderServices
     }
     public async Task GetOrders(string _cityDistrict, string _firstDeliveryDateTime)
     {
+        DateTime firstDeliveryDateTime = DateTime.Now;
+        try
+        {
+            firstDeliveryDateTime = Convert.ToDateTime(_firstDeliveryDateTime);
+        }
+        catch (Exception ex)
+        {
+            throw new FormatException("Неверный формат данных: " + ex.Message);
+        }
+
         var query = _asyncRepository.GetQueryBuilder("Orders")
             .When(_cityDistrict.Length > 0, q => q.WhereLike("CityDistrict", _cityDistrict))
-            .When(_firstDeliveryDateTime is not null, q => q.WhereRaw($"DATEDIFF(hour, {Convert.ToDateTime(_firstDeliveryDateTime)}, {Convert.ToDateTime(_firstDeliveryDateTime).AddMinutes(30)}) <= 0.5"))
+            .When(_firstDeliveryDateTime is not null, q => q.WhereRaw($"DATEDIFF(hour, {firstDeliveryDateTime}, {firstDeliveryDateTime.AddMinutes(30)}) <= 0.5"))
             .Select("OrderNumber", "CityDistrict", "OrderDate", "FloatWeight");
 
         _logger.LogInformation("SQL: " + query.ToString());
         var result = await _asyncRepository.GetListAsync<OrderModel>(query);
-        WriteToFile(result);
+        WriteToFile(result.ToList());
     }
 
-    private void WriteToFile(IEnumerable<OrderModel> orders)
+    private void WriteToFile(List<OrderModel> orders)
     {
-        string path = Directory.GetParent(Environment.CurrentDirectory).FullName;
+        string path = Environment.CurrentDirectory;
         string filePath = Path.Combine(path, "filtered_orders.txt");
         _logger.LogInformation("Путь к файлу с результатом фильтрации: " + filePath);
         using (StreamWriter writer = new StreamWriter(filePath, true))
