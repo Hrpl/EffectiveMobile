@@ -24,6 +24,8 @@ public class OrderController : ControllerBase
     [HttpGet]
     public async Task<List<OrderModel>> Get(string _cityDistrict = "", string _firstDeliveryDateTime = "")
     {
+        _logger.LogInformation("Вход в endpoint получения заказов.");
+        _logger.LogInformation($"Параметры фильтрации \"{_cityDistrict}\", \"{_firstDeliveryDateTime}\".");
         if (_cityDistrict == "" || _firstDeliveryDateTime == "") throw new NullParametrException("Один или несколько параметров запроса были пусты");
         return await _orderServices.GetOrders(_cityDistrict, _firstDeliveryDateTime);
     }

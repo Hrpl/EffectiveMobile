@@ -15,18 +15,19 @@ public class WriterService : IWriterService
 
     public void WriteToFile(List<OrderModel> orders)
     {
-        string path = Environment.CurrentDirectory;
-        string filePath = Path.Combine(path, "filtered_orders.txt");
+        string projectRoot = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\.."));
+        string filePath = Path.Combine(projectRoot, "filtered_orders.txt");
         _logger.LogInformation("Путь к файлу с результатом фильтрации: " + filePath);
-        using (StreamWriter writer = new StreamWriter(filePath, true))
+        using (StreamWriter writer = new StreamWriter(filePath, false))
         {
             _logger.LogInformation("Начало записи файла.");
             writer.WriteLine($"I{DateTime.Now}: Результаты выборки");
             foreach (var record in orders)
             {
-                writer.WriteLine($"Номер заказа: {record.OrderNumber}, район: {record.CityDistrict}, время дсотавки: {record.OrderDate.ToString("yyyy-MM-dd HH:mm:ss")}, вес: {record.FloatWeight}");
+                writer.WriteLine($"Номер заказа: {record.OrderNumber}, район: {record.CityDistrict}, время доставки: {record.OrderDate.ToString("yyyy-MM-dd HH:mm:ss")}, вес: {record.FloatWeight}");
             }
             writer.Close();
+            _logger.LogInformation("Конец записи файла.");
         }
     }
 }

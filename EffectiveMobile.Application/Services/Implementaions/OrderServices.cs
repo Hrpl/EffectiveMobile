@@ -5,6 +5,9 @@ using EffectiveMobile.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SqlKata;
+using SqlKata.Execution;
+using System.Data;
+using System.Numerics;
 
 namespace EffectiveMobile.Application.Services.Implementaions;
 
@@ -23,6 +26,7 @@ public class OrderServices : IOrderServices
     public async Task<List<OrderModel>> GetOrders(string _cityDistrict, string _firstDeliveryDateTime)
     {
         DateTime firstDeliveryDateTime = DateTime.Now;
+        
         try
         {
             firstDeliveryDateTime = DateTime.Parse(_firstDeliveryDateTime);
@@ -36,7 +40,7 @@ public class OrderServices : IOrderServices
             .Where("CityDistrict", _cityDistrict)
             .WhereBetween<DateTime>("OrderDate", firstDeliveryDateTime, firstDeliveryDateTime.AddMinutes(30))
             .Select("*");
-
+        
         var result = await _asyncRepository.GetListAsync<OrderModel>(query);
         _writerService.WriteToFile(result.ToList());
         return result.ToList(); 
