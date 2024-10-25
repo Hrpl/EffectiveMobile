@@ -556,6 +556,22 @@
         "runtime": {
           "bin/placeholder/EffectiveMobile.Domain.dll": {}
         }
+      },
+      "EffectiveMobile.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EffectiveMobile.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.10",
+          "SqlKata.Execution": "2.4.0"
+        },
+        "compile": {
+          "bin/placeholder/EffectiveMobile.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EffectiveMobile.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -2107,11 +2123,17 @@
       "type": "project",
       "path": "../EffectiveMobile.Domain/EffectiveMobile.Domain.csproj",
       "msbuildProject": "../EffectiveMobile.Domain/EffectiveMobile.Domain.csproj"
+    },
+    "EffectiveMobile.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../EffectiveMobile.Infrastructure/EffectiveMobile.Infrastructure.csproj",
+      "msbuildProject": "../EffectiveMobile.Infrastructure/EffectiveMobile.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "EffectiveMobile.Domain >= 1.0.0",
+      "EffectiveMobile.Infrastructure >= 1.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 8.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.10",
@@ -2153,6 +2175,9 @@
           "projectReferences": {
             "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Domain\\EffectiveMobile.Domain.csproj": {
               "projectPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Domain\\EffectiveMobile.Domain.csproj"
+            },
+            "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj"
             }
           }
         }

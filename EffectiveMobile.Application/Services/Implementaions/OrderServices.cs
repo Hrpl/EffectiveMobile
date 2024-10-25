@@ -1,6 +1,9 @@
 ﻿using EffectiveMobile.Application.Repositories.Interfaces;
 using EffectiveMobile.Application.Services.Interfaces;
+using EffectiveMobile.Domain.Entities;
 using EffectiveMobile.Domain.Models;
+using EffectiveMobile.Infrastructure.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -10,6 +13,7 @@ public class OrderServices : IOrderServices
 {
     private readonly IAsyncRepository _asyncRepository;
     private readonly ILogger<OrderServices> _logger;
+
     public OrderServices(IAsyncRepository asyncRepository, ILogger<OrderServices> logger) 
     {
         _asyncRepository = asyncRepository;

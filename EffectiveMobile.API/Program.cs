@@ -1,5 +1,7 @@
 using EffectiveMobile.API.Extensions;
 using EffectiveMobile.API.Middlewares;
+using EffectiveMobile.Infrastructure.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
