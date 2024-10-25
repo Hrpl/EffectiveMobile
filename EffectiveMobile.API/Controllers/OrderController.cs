@@ -1,5 +1,6 @@
 ﻿using EffectiveMobile.Application.Services.Interfaces;
 using EffectiveMobile.Domain.Exceptions;
+using EffectiveMobile.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -21,10 +22,10 @@ public class OrderController : ControllerBase
 
     // GET: api/<OrderController>
     [HttpGet]
-    public async Task Get(string _cityDistrict = "", string _firstDeliveryDateTime = "")
+    public async Task<List<OrderModel>> Get(string _cityDistrict = "", string _firstDeliveryDateTime = "")
     {
         if (_cityDistrict == "" || _firstDeliveryDateTime == "") throw new NullParametrException("Один или несколько параметров запроса были пусты");
-        await _orderServices.GetOrders(_cityDistrict, _firstDeliveryDateTime);
+        return await _orderServices.GetOrders(_cityDistrict, _firstDeliveryDateTime);
     }
 
 }

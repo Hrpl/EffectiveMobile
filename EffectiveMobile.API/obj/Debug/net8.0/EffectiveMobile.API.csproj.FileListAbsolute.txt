@@ -118,4 +118,3 @@ C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\refi
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.pdb
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\EffectiveMobile.API.genruntimeconfig.cache
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\obj\Debug\net8.0\ref\EffectiveMobile.API.dll
-C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.API\bin\Debug\net8.0\Bogus.dll

@@ -5,8 +5,8 @@ C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\E
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.AssemblyInfo.cs
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.sourcelink.json
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.dll
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\refint\EffectiveMobile.Domain.dll
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.pdb
 C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\ref\EffectiveMobile.Domain.dll
-C:\Users\Admin\Desktop\EffectiveMobile\EffectiveMobile.Domain\obj\Debug\net8.0\EffectiveMobile.Domain.sourcelink.json

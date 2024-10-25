@@ -122,9 +122,6 @@
             "projectReferences": {
               "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Domain\\EffectiveMobile.Domain.csproj": {
                 "projectPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Domain\\EffectiveMobile.Domain.csproj"
-              },
-              "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Infrastructure\\EffectiveMobile.Infrastructure.csproj"
               }
             }
           }

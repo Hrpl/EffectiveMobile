@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EffectiveMobile.Domain\EffectiveMobile.Domain.csproj" />
-    <ProjectReference Include="..\EffectiveMobile.Infrastructure\EffectiveMobile.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

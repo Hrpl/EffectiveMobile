@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|solutionrelative:effectivemobile.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|solutionrelative:effectivemobile.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|c:\\users\\admin\\desktop\\effectivemobile\\effectivemobile.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8808E07-0498-40A9-A7CF-235009439E98}|EffectiveMobile.API\\EffectiveMobile.API.csproj|solutionrelative:effectivemobile.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1390,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EffectiveMobile.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EffectiveMobile.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T12:26:38.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,22 +49,9 @@
               "RelativeDocumentMoniker": "EffectiveMobile.Application\\Services\\Implementaions\\OrderServices.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.Application\\Services\\Implementaions\\OrderServices.cs",
               "RelativeToolTip": "EffectiveMobile.Application\\Services\\Implementaions\\OrderServices.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T08:44:24.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "EffectiveMobile.API\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "EffectiveMobile.API\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAjwCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T08:18:03.226Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "EffectiveMobile.API\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\EffectiveMobile\\EffectiveMobile.API\\Program.cs",
               "RelativeToolTip": "EffectiveMobile.API\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T22:22:10.427Z",
               "EditorCaption": ""
