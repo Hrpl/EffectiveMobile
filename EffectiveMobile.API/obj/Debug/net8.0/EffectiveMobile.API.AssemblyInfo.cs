@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EffectiveMobile.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3442c5a8ed56d0a18637eb43fbc62658b518d245")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f0d1f2e155394e6f3e1a43e3234a0814aea09ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("EffectiveMobile.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EffectiveMobile.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
